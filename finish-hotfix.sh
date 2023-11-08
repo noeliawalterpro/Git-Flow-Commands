@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Prompt the user for the hotfix name
-read -p "Enter the hotfix name to finish: " HOTFIX_NAME
+read -p "Enter the hotfix version (eg 1.1.x) to finish: " HOTFIX_NAME
 
 # Ensure you are on the master branch
 git checkout master
